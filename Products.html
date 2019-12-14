@@ -84,15 +84,15 @@
        
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"> <img src="img/sm_logo.png" height="30" width="30" /> </a>
+            <a class="navbar-brand" href="index.html"> <img src="img/sm_logo.png" height="30" width="30" /> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse justify-content-between navbar-collapse" id="navbarToggle">
                 <ul class="navbar-nav">
-                    <li class="nav-item active" ><a class="btn btn-outline-dark" class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item" ><a class="btn btn-outline-dark" class="nav-link" href="Products.html">Products</a></li>
-                    <li class="nav-item" ><a class="btn btn-outline-dark" class="nav-link" href="Test.html">Product Tester</a></li>
+                    <li class="nav-item active" ><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" ><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item active" ><a class="nav-link" href="Test.html">Product Tester</a></li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -102,66 +102,53 @@
         </div>
     </nav>
     <div class="container">
-        <div class="row row-content">
-            <div class="col-md-8 mx-auto">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target="#homeCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                       <div class="carousel-item active">
-                           <img class="d-block w-100" src="img/main1.jpg" alt="main coiled" />
-                           <div class="carousel-caption text-info">
-                                <h3>Coiled Cable</h3>
-                                <p class="d-none d-sm-block">Tangle free.</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/2.jpg" alt="dual charge" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="img/3.jpg" alt="multiple devices compatible" />
-                        </div>
-                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-
-                        <button class="btn btn-danger btn-sm" id="carouselButton">
-                            <i class="fa fa-pause"></i>
-                        </button>
-                </div>
-            </div>
-        </div>
-    <div class="container">
         <div class="row">
             <div class="col">
-                <form class="collectemail form-inline">
-                    <label class="col form-label">Be the first to know about our latest products.</label>
-                    <input class="form-control" type="email" placeholder="Enter your email address" aria-label="Email">
-                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Submit</button>
-                </form>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Products</li>
+                </ol>
             </div>
         </div>
-    </div>
-</div>
-</div>
+
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="img/main1.jpg" alt="Coiled Charger">
+              <div class="card-body">
+                <h5 class="card-title">Coiled Car Charger</h5>
+                <p class="card-text">24W / 4.8A USB Car Charger with a built-in Coiled fast lightning cable and an extra USB port; both can deliver at a 2.4A max output to quickly charge your phones or tablets so you'll spend less time in charging your devices.</p>
+             </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="img/RC44.jpg" alt="RC44 Car Charger">
+              <div class="card-body">
+                <h5 class="card-title">iPhone Car Charger</h5>
+                <p class="card-text">[Fast Charging with High Output]: 24W / 4.8A USB Car Charger with a built-in 1.2 meter fast lightning cable and an extra USB port; both can deliver at a 2.4A max output to quickly charge your phones or tablets so you'll spend less time in charging your devices.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="img/typec.jpg" alt="Type C Cable">
+              <div class="card-body">
+                <h5 class="card-title">Type C Cable</h5>
+                <p class="card-text">[Heavy Duty] Nylon Braided USB 3.1 Type C Power Charging Cable (10ft / 3m) - Connect USB portable charger or battery power bank with USB 3.0 or 2.0 to devices with the Type C USB connector for quick charging and syncing data</p>
+              </div>
+            </div>
+          </div>
+        
 
 
+
+</div>
     <footer class="site-footer">
         <div class="container">
             <div class="row ">
                 <div class="col-4 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Products</a></li>
                         <li><a href="Test.html">Product Test</a></li>
                     </ul>
                 </div>

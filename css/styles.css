@@ -1,0 +1,40 @@
+.site-footer {
+    background-image: linear-gradient(to left, #333333, #0a0b13, #83468b);
+    padding: 20px 0; 
+    color: white;}
+  
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.jumbotron {
+    margin: 0;
+    padding:0px;
+    background-image: linear-gradient(to left, #333333, #0a0b13, #83468b);
+    color: white; }
+
+.navbar {
+    background-color: rgb(139, 136, 139);
+    }
+    
+.collectemail
+{
+
+    background-color: rgb(139, 136, 139);
+}
+
+#loginModal .modal-header {
+  background-color: rgb(120, 121, 121);
+  color: white; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid silver; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
